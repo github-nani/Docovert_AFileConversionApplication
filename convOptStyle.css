@@ -1,0 +1,49 @@
+.topside{
+    margin-top: 50px;
+}
+.topside h1, h2{
+    text-align: center;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+
+.tools-listed{
+    margin: 100px 100px 20px 100px;
+    padding-top: 25px;
+    padding-bottom: 20px;
+    display:grid;
+    grid-template-columns: auto auto auto auto;
+    background-color: #00307d;
+    border-radius: 50px;
+    justify-content: space-evenly;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.tools-listed div a{
+    text-decoration: none;
+}
+.tools-listed div{
+    text-align: center;
+}
+.tools-listed div:hover{
+    background-color: rgb(49, 49, 163);
+    cursor: pointer;
+    border-radius: 50px;
+}
+.tools-listed div p{
+    color: white;
+    text-align: center;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.pdftoword img, .pdftoexcel img, .pdftoppt img, .pdftojpg img, .pdftohtml img{
+    margin-left: 10px;
+}
+.wordtopdf img, .exceltopdf img, .ppttopdf img, .jpgtopdf img, .htmltopdf img{
+    margin-left: 10px;
+}
+.pdftoword p{
+    text-align: center;
+}
+.pdftoword{
+    margin: 10px 10px 10px 10px;
+    background-color: #00307d;
+}
